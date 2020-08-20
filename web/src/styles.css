@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.itens{
+    margin: 1.5rem;
+}
+form{
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:1.2rem;
+}
+form input{
+    display: flex;
+    justify-content: space-around;
+    padding:15px;
+    border-radius: 10px;
+    margin: 1rem 
+    
+}
+form button{
+    display: flex;
+    padding:12px;
+    border-radius: 7px;
+}
+form button:hover{
+    background: rgb(235, 235, 235);
+}
+form input:hover{
+    background: rgb(235, 235, 235);
+}
+.infos ul li{
+    list-style: none;
+    margin: 15px 0;
+  
+}
+@media(min-width:1000px)
+{
+    form{
+        display: flex;
+        flex-direction: row;
+    }
+    .infos {
+        font-size: 1.2rem;
+        }
+}
